@@ -5,6 +5,6 @@ on: [push]
 
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "Running on GHA...."
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running on GHA...."
